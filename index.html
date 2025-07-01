@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manav Agarwal | CSE Student Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="certificates.js"></script>
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Manav<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#certificates">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="section">
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Manav Agarwal</h1>
+                <h2>Aspiring Software Engineer & CSE Student</h2>
+                <p>Passionate about creating innovative solutions through code. Currently pursuing my Bachelor's in Computer Science with a focus on AI and Web Development.</p>
+                <div class="btn-group">
+                    <a href="#resume" class="btn btn-primary">View Resume</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-img-container">
+                    <img src="aboutme.jpeg" alt="Manav Agarwal" class="profile-img">
+                </div>
+                <div class="about-text">
+                    <div class="typing-text">
+                        <p>Hello! I'm Manav, a Computer Science Engineering student at Chandigarh University with a passion for software development and machine learning. I specialize in building responsive web applications and intelligent systems.</p>
+                        <p>Beyond coding, you can find me contributing to open-source projects, participating in hackathons, or exploring the latest advancements in AI technology.</p>
+                          <p>When I’m not immersed in code, you’ll find me exploring AI research, brainstorming unique tech ideas, or helping peers grow in their learning journey. I'm always open to new opportunities, conversations, and collaborations!</p>
+                    </div>
+                    <div class="skills-container">
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>C++</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>Database Management System</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-info">
+                                <span>Machine Learning</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tech-stack">
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span class="tech-name">Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40">
+                            </div>
+                            <span class="tech-name">C++</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40">
+                            </div>
+                            <span class="tech-name">C</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <span class="tech-name">Node.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span class="tech-name">SQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <span class="tech-name">AI/ML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="project1.png" alt="Project" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">PixelSonic – Image & Text to Sound Transmission</h3>
+                        <p class="project-description">A Python-based system that converts images and messages into sound using audio modulation (FSK/PSK), then decodes the signal back into the original form. It works fully offline and visualizes sound signals using FFT—perfect for secure, contactless data sharing.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Numpy</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Soundfile</span>
+                            <span class="tech-tag">Scipy</span>
+                            <span class="tech-tag">Matplotlib</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Project" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">EcoRoute Navigation</h3>
+                        <p class="project-description">A mobile application that calculates the most eco-friendly routes for transportation, reducing carbon footprint by up to 25%.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Maps API</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1555066932-6f238cea8ed2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Project" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Blockchain Voting System</h3>
+                        <p class="project-description">A secure and transparent voting platform built on blockchain technology to prevent election fraud and ensure voter privacy.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Solidity</span>
+                            <span class="tech-tag">Ethereum</span>
+                            <span class="tech-tag">Web3.js</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <div class="container">
+            <h2 class="section-title">Resume & Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2025 – June 2025</div>
+                        <h3 class="timeline-title">AI Azure Intern</h3>
+                        <div class="timeline-org">
+                            <div class="org-logo"><i class="fab fa-microsoft"></i></div>
+                            <span>Microsoft x AICTE Internship (via Edunet Foundation)</span>
+                        </div>
+                        <p>Completed a 4-week internship on AI and Azure Cloud technologies, focused on real-world applications of Machine Learning and Generative AI. Participated in expert-led masterclasses and hands-on sessions using Microsoft Learn and Azure tools. Built a guided AI project and presented it at the end of the internship.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">May – August 2025</div>
+                        <h3 class="timeline-title">Data Science & Machine Learning Intern</h3>
+                        <div class="timeline-org">
+                            <div class="org-logo">
+                            <img src="https://cdn-icons-png.flaticon.com/512/906/906175.png" alt="Company Logo" width="40">
+                            </div>
+                            <span>Zaalima Development Pvt. Ltd. (Remote)</span>
+                        </div>
+                        <p>Contributed to real-world data science and machine learning projects remotely. Gained hands-on experience in model building and performance evaluation, with a performance-based stipend and a certificate of completion.</p>
+                    </div>
+                </div>
+                <!-- <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - 2022</div>
+                        <h3 class="timeline-title">Full Stack Developer</h3>
+                        <div class="timeline-org">
+                            <div class="org-logo"><i class="fas fa-building"></i></div>
+                            <span>TechStart Inc.</span>
+                        </div>
+                        <p>Built and maintained web applications using React and Node.js, implemented CI/CD pipelines, and optimized application performance by 40%.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2019 - Present</div>
+                        <h3 class="timeline-title">B.S. Computer Science</h3>
+                        <div class="timeline-org">
+                            <div class="org-logo"><i class="fas fa-graduation-cap"></i></div>
+                            <span>Stanford University</span>
+                        </div>
+                        <p>Specializing in Artificial Intelligence and Systems. GPA: 3.9/4.0. Relevant coursework: Machine Learning, Algorithms, Distributed Systems, Computer Vision.</p>
+                    </div>
+                </div>
+            </div> -->
+            <a href="resume.pdf" class="btn btn-primary resume-btn" download="resume.pdf">
+            <i class="fas fa-download"></i> Download Resume
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+<!-- Certificates Section -->
+<section id="certificates" class="section">
+    <div class="container">
+        <h2 class="section-title">Certificates & Achievements</h2>
+        <div class="certificates-container">
+            <div class="certificate-card">
+                <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80" alt="Microsoft Azure AI Certificate" class="certificate-img">
+                <div class="certificate-content">
+                    <h3 class="certificate-title">Microsoft Azure AI</h3>
+                    <div class="certificate-issuer">
+                        <i class="fab fa-microsoft"></i>
+                        <span>Microsoft Azure</span>
+                    </div>
+                    <p>Certified in designing, developing, and deploying AI solutions using Microsoft Azure cloud services and responsible AI practices.</p>
+                    <a href="https://drive.google.com/file/d/19UNoMMGP8seJfB2O3POIxZu76jRm87vy/view?usp=drive_link" target="_blank"  class="view-certificate">View Certificate <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="certificate-card">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Certificate" class="certificate-img">
+                <div class="certificate-content">
+                    <h3 class="certificate-title">Bring AI to Work Workshop</h3>
+                    <div class="certificate-issuer">
+                        <i class="fab fa-google"></i>
+                        <span>Google Worspace</span>
+                    </div>
+                    <p>Gained hands-on experience using Google AI tools to automate workflows and improve productivity within Google Workspace.</p>
+                    <a href="https://drive.google.com/file/d/1LPIXj4V_C6deE0OcAHs2S1iolmRuO2hw/view?usp=drive_link" target="_blank" class="view-certificate">View Certificate <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <img src="https://picsum.photos/id/1060/600/400" alt="Certificate" class="certificate-img">
+                <div class="certificate-content">
+                    <h3 class="certificate-title">SQL(Advanced)</h3>
+                    <div class="certificate-issuer">
+                        <i class="fas fa-hackerrank"></i>
+                        <span>HackerRank</span>
+                    </div>
+                    <p>Validated strong SQL skills through advanced query writing, optimization, and database management challenges.</p>
+                    <a href="https://drive.google.com/file/d/1UAL27QL0xTQyPwipHXsypFwSAMY8A7Mr/view?usp=drive_link" target="_blank" class="view-certificate">View Certificate <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80" alt="Certificate" class="certificate-img">
+                <div class="certificate-content">
+                    <h3 class="certificate-title">Python Essential</h3>
+                    <div class="certificate-issuer">
+                        <i class="fas fa-cisco"></i>
+                        <span>Cisco Network Academy</span>
+                    </div>
+                    <p>Completed foundational training in Python programming including data types, functions, and control structures.</p>
+                    <a href="https://drive.google.com/file/d/1NtFre7_GAy1CaPi_B6jiQzcqTyqoYXAz/view?usp=drive_link" target="_blank" class="view-certificate">View Certificate <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <img src="https://picsum.photos/id/180/600/400" alt="Certificate" class="certificate-img">
+                <div class="certificate-content">
+                    <h3 class="certificate-title">Data Analystics Job Simulation</h3>
+                    <div class="certificate-issuer">
+                        <i class="fas fa-deloitte"></i>
+                        <span>Deloitte</span>
+                    </div>
+                    <p>Simulated a real-world data analytics project with Deloitte, using data cleaning, dashboarding, and strategic insights.</p>
+                    <a href="https://drive.google.com/file/d/1QqaVtS_56weLT5A1X5r2jcXS1DPau72Y/view?usp=drive_link" target="_blank" class="view-certificate">View Certificate <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <img src="https://images.unsplash.com/photo-1564865878688-9a244444042a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Certificate" class="certificate-img">
+                <div class="certificate-content">
+                    <h3 class="certificate-title">Data Visualization</h3>
+                    <div class="certificate-issuer">
+                        <i class="fas fa-tata"></i>
+                        <span>TATA</span>
+                    </div>
+                    <p>Learned to present data effectively using tools like Tableau and Power BI to tell compelling stories from raw data.</p>
+                    <a href="https://drive.google.com/file/d/16Je8j00N0G-JK_flnw_LDhFiA3-W5zLW/view?usp=drive_link" target="_blank" class="view-certificate">View Certificate <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <img src="https://picsum.photos/id/201/600/400" alt="Certificate" class="certificate-img">
+                <div class="certificate-content">
+                    <h3 class="certificate-title">Certificate of Training</h3>
+                    <div class="certificate-issuer">
+                        <i class="fas fa-zaalimadevelopment"></i>
+                        <span>Zaalima Development</span>
+                    </div>
+                    <p>Participated in a structured training program focused on web development, project planning, and Git-based collaboration.</p>
+                    <a href="https://drive.google.com/file/d/1p4-z-9ws-JdVCfkLb8_b429EXcmDuZVl/view?usp=drive_link" target="_blank" class="view-certificate">View Certificate <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Certificate" class="certificate-img">
+                <div class="certificate-content">
+                    <h3 class="certificate-title">AI for Entrepreneurship</h3>
+                    <div class="certificate-issuer">
+                        <i class="fas fa-intel"></i>
+                        <span>INTEL TECHNOLOGY INDIA PVT LTD</span>
+                    </div>
+                    <p>Explored the intersection of AI and business, learning how to ideate and implement AI-based solutions for startups.</p>
+                    <a href="https://drive.google.com/file/d/1B3vb_RilFqhpYpbwEZVj6ZEIT4yHvEwe/view?usp=drive_link" target="_blank" class="view-certificate">View Certificate <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="certificate-card">
+                <img src="https://picsum.photos/id/1005/600/400" alt="Certificate" class="certificate-img">
+                <div class="certificate-content">
+                    <h3 class="certificate-title">Introduction to Machine Learning</h3>
+                    <div class="certificate-issuer">
+                        <i class="fas fa-univerty"></i>
+                        <span>Duke University</span>
+                    </div>
+                    <p>Studied core machine learning concepts including supervised learning, decision trees, and model evaluation techniques.</p>
+                    <a href="https://drive.google.com/file/d/1ufhmQzNGuXxc3f7_h1CZ9J6iRTgfx17Y/view?usp=drive_link" target="_blank" class="view-certificate">View Certificate <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    <section id="achievements" class="section">
+  <div class="container">
+    <h2 class="section-title">My Achievements</h2>
+    <div class="achievements-grid">
+      <div class="achievement-card">
+        <i class="fas fa-award icon"></i>
+        <h3><span class="counter" data-target="21">0</span>+</h3>
+        <p>Certifications</p>
+      </div>
+      <div class="achievement-card">
+        <i class="fas fa-project-diagram icon"></i>
+        <h3><span class="counter" data-target="15">0</span>+</h3>
+        <p>Projects Completed</p>
+      </div>
+      <div class="achievement-card">
+        <i class="fas fa-lightbulb icon"></i>
+        <h3><span class="counter" data-target="5">0</span>+</h3>
+        <p>Hackathons</p>
+      </div>
+      <div class="achievement-card">
+        <i class="fas fa-chalkboard-teacher icon"></i>
+        <h3><span class="counter" data-target="10">0</span>+</h3>
+        <p>Workshops Attended</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>manavag70@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 7014171493</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Chandigarh, India</p>
+                            <div class="social-links">
+                                <a href="https://github.com/manavagarwal123" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/manav-agarwal-442627292/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://wa.me/917014171493" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                                <a href="https://www.instagram.com/manavagarwal28/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="footer-logo">Manav<span>.</span></a>
+                    <p>Computer Science student passionate about building innovative solutions through code. Let's create something amazing together!</p>
+                    <div class="social-links">
+                        <a href="https://github.com/manavagarwal123" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/manav-agarwal-442627292/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/917014171493" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/manavagarwal28/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025  Manav Agarwal. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- External Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
